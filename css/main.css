@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Lort;
+    src: url(fonts/anirb___.ttf); 
+    font-weight: normal;
+	font-style: italic;
+ }
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;		
+}
+
+.filmsBackground {
+	background: url(../images/films_bg.jpg) no-repeat center top / cover;
+}
+
+.booksBackground {
+	background: url(../images/book1bg.jpg) no-repeat center top / cover;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 40px;
+}
+
+nav {
+	float: center;
+}
+
+.menu {
+	padding: 0px 0px 0px 130px;
+	margin: 0;
+	display: block;
+	float: top;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 40px;
+}
+
+.menu a {
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Lotr;
+    text-shadow: 0 0 20px black, 0 0 8px rgba(0,0,0,0.8);
+}
+
+.img_book {
+	float: left;
+	height: 400px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+h3 {
+	padding-top: 10px;
+	color: white;
+	margin-left: 30px;
+	position: relative;
+    font-family: GoudyTrajan-Medium;
+    text-shadow: 0 0 20px black, 0 0 8px rgba(0,0,0,0.8);
+}
+
+h5 {
+	color: white;
+	letter-spacing: 0.075em;
+    text-shadow: 0 0 8px black, 0 0 4px rgba(0,0,0,0.8);
+    font-family: GoudyTrajan-Medium;
+}
+
+hr {
+	background-color: #773a04;
+	height: 2px;
+	border: none;
+	margin: 0;
+}
+
+p {
+	color: white;
+	font-size: 16px;
+    letter-spacing: 0.075em;
+    text-shadow: 0 0 8px black, 0 0 4px rgba(0,0,0,0.8);
+    font-family: GoudyTrajan-Medium;
+}
+
+.text {
+	font-size: 10px;
+}
+
+.button {
+	background: gold;
+	color: black;
+	border-radius: 3px;
+	width: 150px;
+	padding: 10px;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.green {
+	background: lightgreen;
+}
+
+.blue {
+	background: lightblue;
+	margin-left: 10px;
+}
+
+table, td {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table h5, h2 {
+	margin: -5px;
+	margin-left: 10px;
+}
+
+table h2 {
+	color: gold;
+}
+
+
